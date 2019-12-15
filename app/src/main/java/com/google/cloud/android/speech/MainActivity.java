@@ -135,7 +135,6 @@ public class MainActivity extends AppCompatActivity implements MessageDialogFrag
                             bundle.getStringArrayList(STATE_RESULTS);
                     mAdapter = new ResultAdapter(results);
                     mRecyclerView.setAdapter(mAdapter);
-                    // Gọi StopRecognize()
                 }
                 catch (Exception ex){}
             }
